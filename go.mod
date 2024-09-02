@@ -1,3 +1,3 @@
-module go-complete-guide
+module go-learning.com
 
 go 1.23.0
