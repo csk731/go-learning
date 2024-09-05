@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	ch2 "go-learning/ch2"
+	ch4 "go-learning/ch4"
 )
 
 func main() {
@@ -24,5 +24,9 @@ func main() {
 	// ch1.InvestmentCalculator()
 	// ch1.ProfitCalculator()
 
-	ch2.Functions()
+	// ch2.Functions()
+
+	// ch3.Conditionals()
+
+	ch4.Files()
 }
