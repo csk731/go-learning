@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	ch4 "go-learning/ch4"
+	"go-learning/ch5"
 )
 
 func main() {
@@ -28,5 +28,7 @@ func main() {
 
 	// ch3.Conditionals()
 
-	ch4.Files()
+	// ch4.Files()
+
+	ch5.Print1()
 }
