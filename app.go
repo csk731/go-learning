@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-learning/ch5"
+	"go-learning/ch6"
 )
 
 func main() {
@@ -30,5 +30,8 @@ func main() {
 
 	// ch4.Files()
 
-	ch5.Print1()
+	// ch5.Print1()
+
+	ch6.Pointers()
+
 }
