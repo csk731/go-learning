@@ -1,12 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"go-learning/ch6"
-)
+import "go-learning/ch7/project"
 
 func main() {
-	fmt.Println("Hello World")
+	// fmt.Println("Hello World")
 	// var x float64 = 10
 	// fmt.Println(x, "->", reflect.TypeOf(x))
 
@@ -32,6 +29,11 @@ func main() {
 
 	// ch5.Print1()
 
-	ch6.Pointers()
+	// ch6.Pointers()
+
+	// ch7.Structs()
+	// ch7.Aliases()
+
+	project.RunNotesApp()
 
 }
