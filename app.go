@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-learning/ch8"
+	"go-learning/ch9"
 )
 
 func main() {
@@ -38,6 +38,10 @@ func main() {
 
 	// project.RunNotesApp()
 
-	ch8.Interfaces()
+	// ch8.Interfaces()
+
+	// ch9.ArraysSlices()
+	// ch9.Practice()
+	ch9.Maps()
 
 }
