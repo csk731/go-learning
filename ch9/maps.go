@@ -54,6 +54,6 @@ func Maps() {
 	prod21.printProd()
 
 	for key, val := range website_urls {
-		fmt.Println(idx, val)
+		fmt.Println(key, val)
 	}
 }

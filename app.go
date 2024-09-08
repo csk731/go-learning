@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-learning/ch9"
+	"go-learning/ch10"
 )
 
 func main() {
@@ -42,6 +42,9 @@ func main() {
 
 	// ch9.ArraysSlices()
 	// ch9.Practice()
-	ch9.Maps()
+	// ch9.Maps()
 
+	ch10.Functions()
+	// ch10.AnonymousFunctions()
+	// ch10.Recursion()
 }
