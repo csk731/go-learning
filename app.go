@@ -1,6 +1,8 @@
 package main
 
-import "go-learning/ch7/project"
+import (
+	"go-learning/ch8"
+)
 
 func main() {
 	// fmt.Println("Hello World")
@@ -34,6 +36,8 @@ func main() {
 	// ch7.Structs()
 	// ch7.Aliases()
 
-	project.RunNotesApp()
+	// project.RunNotesApp()
+
+	ch8.Interfaces()
 
 }
