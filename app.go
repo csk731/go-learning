@@ -1,7 +1,8 @@
 package main
 
 import (
-	"go-learning/ch10"
+	"fmt"
+	"go-learning/ch11"
 )
 
 func main() {
@@ -44,7 +45,12 @@ func main() {
 	// ch9.Practice()
 	// ch9.Maps()
 
-	ch10.Functions()
+	// ch10.Functions()
 	// ch10.AnonymousFunctions()
 	// ch10.Recursion()
+
+	err := ch11.PriceCalculator()
+	if err != nil {
+		fmt.Println(err)
+	}
 }
